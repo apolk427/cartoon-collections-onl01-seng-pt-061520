@@ -24,6 +24,6 @@ def find_the_cheese(strings)
   elsif strings.include? "camembert"
     return "camembert"
  else
-   nil 
+   nil
 end
 end	

@@ -19,7 +19,7 @@ end
 def long_planeteer_calls
   planteer_calls.all? {|word| word.length < 4 }
   planteer_calls.any? {|word| word.length > 4 }
-   end
+   
 end
 
 def find_the_cheese

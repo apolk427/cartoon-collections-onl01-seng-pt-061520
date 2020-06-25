@@ -3,10 +3,8 @@ dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 calls_screams = ["bo", "bam", "boom", "bazam", "powzer"]
 
 def roll_call_dwarves
-  i = 0
-   while i < array.length
-     puts "#{i + 1}. #{array[i]}"
-     i += 1
+  array.each_with_index do |name, index|
+    puts "#{index + 1}. #{name}"
    end
 end
 roll_call_dwarves(dwarves)
